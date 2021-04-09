@@ -4,6 +4,8 @@ CSV_FOLDER/*
 OUTPUT_FOLDER/
 OUTPUT_FOLDER/*
 
+config.yaml
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

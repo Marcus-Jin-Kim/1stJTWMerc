@@ -1,2 +1,21 @@
 CSV_FOLDER: "CSV_FOLDER"
 OUTPUT_FOLDER: "OUTPUT_FOLDER"
+
+COLNAMES:
+  - pn
+  - bal
+  - AA
+  - AG
+  - S
+  - K
+  - A10
+  - AV8
+  - F16
+  - F14
+  - FA18
+  - M2
+  - F5
+  - JF17
+  - MiG21
+  - KA50
+  - UH1
