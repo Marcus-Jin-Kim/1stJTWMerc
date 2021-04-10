@@ -37,10 +37,16 @@ def main():
 
     # write
     fw = open(config["OUTPUT_FOLDER"] + os.sep + "output.csv", "w")
+
+    # write header
+
+    fw.write( ",".join(config["COLNAMES"]))
+    fw.write("\n")
+
     for pn in statdict:
         fw.write(pn)
         for i in range(1, len(config["COLNAMES"])):
-            colname = colname = config["COLNAMES"][i]
+            colname = config["COLNAMES"][i]
             fw.write(",")
             fw.write(str(statdict[pn][colname]))
         fw.write("\n")
